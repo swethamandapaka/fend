@@ -1,0 +1,37 @@
+.Form-container {
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    width: 400px;
+    height: 180px;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Form-container input {
+    border: none;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+.image-file input {
+    width: 100%;
+}
+
+.author-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description input {
+    width: 100%;
+}
+
+.Post-btn {
+    text-align: center;
+    margin-top: 3px;
+}
